@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c1c2c157;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #8e8f8c14;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.kategori {
+    background-color: hsl(98, 100%, 56%);
+    color: rgb(0, 0, 0);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+}
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #6f1f63;
+    border-radius: 4px;
+}
+.btn-donasi {
+    background-color: #ff9800;
+    color: rgb(15, 12, 12);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-simpan {
+    background-color: #ff9800;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.container.lebar { max-width: 900px; }
+nav { display:flex; gap:12px; justify-content:center; margin-bottom:10px; font-size:14px; }
+nav a, nav button { color:#333; background:none; border:none; cursor:pointer; font-size:14px; text-decoration:underline; }
+table { width:100%; border-collapse:collapse; font-size:14px; }
+th, td { border:1px solid #ccc; padding:6px; text-align:left; }
+.alert { padding:8px; background:#d4edda; border-radius:4px; margin-bottom:10px; }
+.error { color:#c00; font-size:12px; }
+.progress { background:#ddd; border-radius:4px; height:10px; overflow:hidden; }
+.progress div { background:#4caf50; height:10px; }
